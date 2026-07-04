@@ -137,16 +137,36 @@ header h2 {
 
 /*Content*/
 .me {
-    display: grid;
-    grid-template-columns: 1fr 3fr;   
-    grid-template-rows: auto auto;  
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;  
     padding: 2rem;
     
 }
 
 .me h2 {
-    
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    color: var(--color1);
+    padding: 1rem;
+}
+
+.me img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    border: 8px solid var(--color1)
+}
+
+.me-text {
+    margin: 0 1.5rem;
+    color: var(--color1);
+}
+
+.je img {
+   width: 300px;
+   height: auto;
+   
 }
 
 /*FOOTER*/
