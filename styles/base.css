@@ -155,7 +155,10 @@ header h2 {
     width: 500px;
     height: auto;
     border-radius: 20px;
-    border: 8px solid var(--color1)
+   /* border: 8px solid var(--color1)*/
+   mask: 
+    linear-gradient(0,#0000 60px,#000 0) 0 30px,
+    radial-gradient(30px,#000 calc(100% - 1px),#0000) 50%/55.5px 60px repeat space
 }
 
 .me-text {
