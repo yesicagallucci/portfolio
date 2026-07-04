@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Yesica Gallucci</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Meddon&family=Yuyu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <!--logo with link to home: <a href="index.html" aria-label="go to home" ><img src=""></a>-->
+        <h1>Yesica Gallucci</h1>
+        <h2>Connecting content, people, and ideas</h2>
+        <a id="menu" href="#"></a>
+        <nav class="navigation">
+            <ul class="navigation-menu">
+                <li><a href="index.html" class="active" aria-label="home">Home</a></li>
+                <li><a href="#" aria-label="portfolio">Portfolio</a></li>
+                <li><a href="#" aria-label="contact">Contact</a></li>
+                <li><a href="#" aria-label="blog">Blog</a></li>
+            </ul>
+        </nav>
+        <div id="mode"></div>
+        <!--
+        <picture class="hero">
+                <source media="(max-width: 400px)" srcset="">
+                <source media="(max-width: 960px)" srcset="">
+                <img src="" alt="" width="1920" height="849" loading="lazy">
+        </picture>
+        -->
+    </header>
+    <main>
+        <div id="main-content">
+            <section class="me">
+                <img src="images/profile-web.jpg" alt="me with my computer behind" loading="lazy">
+                <h2>About Me</h2>
+                <div class="me-text">
+                    <p></p>
+                </div>
+                
+            </section>
+        </div>
+    </main>
+    <footer>
+            <div class="data">
+                <p>My Portfolio</p>
+                <p>Yesica Gallucci</p>
+                <p>Bilingual Content Designer SPA/ENG</p>
+            </div>
+            <div class="smedia">
+                <a href="https://github.com/yesicagallucci"><img src="images/github.svg" alt="github icon"></a>
+                <a href="linkedin.com/in/yesicagallucci/"><img src="images/linkedin.svg" alt="linkedin icon"></a>
+                <a href="https://www.behance.net/yesicagallucci"><img src="images/behance.svg" alt="behance icon"></a>
+            </div>    
+            <div class="footer-content">
+                <p>&copy;<span id="currentyear"></span>YG</p>
+                <p id="lastmodified"></p>
+            </div>
+    </footer>
+
+    
+</body>
+</html>
