@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic design page of my portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+</head>
+<body>
+     <header>
+        <a href="index.html" aria-label="go to home" ><img src="images/yweb.png"></a>
+        <div class="header-name">
+            <h1>Yesica Gallucci</h1>
+            <h2>Connecting content, people, and ideas</h2>
+        </div>
+        
+        <a id="menu" href="#"></a>
+        <nav class="navigation">
+            <ul class="navigation-menu">
+                <li><a href="index.html" aria-label="home">Home</a></li>
+                <li><a href="graphicdesign.html" class="active" aria-label="portfolio">Graphic Design</a></li>
+                <li><a href="#" aria-label="contact">Contact</a></li>
+                <li><a href="#" aria-label="blog">Blog</a></li>
+            </ul>
+        </nav>
+        <div id="mode"></div>
+        
+    </header>
+    <main id="gdpage">
+        <section class="graphic-design-projects">
+            <article class="project-card">
+                <img src="images/hslele.png" alt="heritage stamp">
+                <h3>Heritage Stamp</h3>
+                <p>In my design, I aligned the visual elements to follow the Z pattern. The name is in the upper-left corner, and then comes a little of white space and then the view comes to the lower left corner, where the image and the flowers are, and finally to the lower right corner, where the country and price stamp is.  I also followed the color contrast advice; I used blue and red. The flowers comply with the rule of odds; there are three big objects overlapping with the frame and the pic. Finally, I played with the size of the elements to emphasize information, like the name, and brought attention to details, like the flowers, in the picture. </p>
+            </article>
+
+            <article class="project-card">
+                <img src="images/yweb.png" alt="y sticker">
+                <h3>Personal Brand Sticker</h3>
+                <p>Short description of the project, goal, or context.</p>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+            <div class="data">
+                <p>My Portfolio</p>
+                <p>Yesica Gallucci</p>
+                <p>Bilingual Content Designer SPA/ENG</p>
+            </div>
+            <div class="smedia">
+                <a href="https://github.com/yesicagallucci" target="_blank"><img src="images/github.svg" alt="github icon"></a>
+                <a href="https://linkedin.com/in/yesicagallucci/" target="_blank"><img src="images/linkedin.svg" alt="linkedin icon"></a>
+                <a href="https://www.behance.net/yesicagallucci" target="_blank"><img src="images/behance.svg" alt="behance icon"></a>
+            </div>    
+            <div class="footer-content">
+                <p>&copy;<span id="currentyear"></span>YG</p>
+                <p id="lastmodified"></p>
+            </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,9 +1,11 @@
 :root {
-    --color1: #1A2E6B;
+    --color1: #47002E;
     --color2: #8B005A;
     --color3: #F8F7FF;
-    --heading-font:"Meddon", cursive;
-    --main-font: "Yuyu", sans-serif;
+    --color4: #ff00a6;
+    --color5: #ff8ad6;
+    --heading-font: "Sedgwick Ave Display", cursive;
+    --main-font: "Cause", cursive;
 }
 
 
@@ -16,53 +18,53 @@
 /*HEADER*/
 
 header {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: auto auto;
   align-items: center;
   background-color: var(--color2);
   color: var(--color3);
   position: relative;
 }
 
-/*
+
 header img {
   display: block;
-  width: 12rem;   
+  width: 7rem;   
   height: auto;  
   max-width: 100%;
   text-align: center;
+  padding: 1rem;
 }
-*/
+
 
 header a {
   display: inline-block; /* evita que el enlace se comporte raro alrededor de la imagen */
 }
 
-#mode {
-  grid-column: 3;
-}
 
 header span {
   text-align: left;
   margin: 2rem;
   font-family: var(--heading-font);
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 
-h1 {
+
+header h1 {
   font-family: var(--heading-font);
   font-size: 2rem;
   color: var(--color3);
   padding: 2rem;
   margin-bottom: 0;
   line-height: 3rem;
+  grid-column: 2-3;
+  grid-row: 1;
 }
 
 header h2 {
     font-family: var(--main-font);
     margin-left: 1rem;
+    font-size: 1rem;
+
 }
 
 /*Menu*/
@@ -104,9 +106,9 @@ header h2 {
 	text-align: right;
 	text-decoration: none;
 	color: var(--color3);
-    font-family: var(--main-font);
+  font-family: var(--main-font);
 	font-weight: 700;
-	font-size: clamp(1.5rem, 2vmin, 2rem);
+	font-size: clamp(1rem, 2vmin, 2rem);
 
 }
 
@@ -164,6 +166,7 @@ header h2 {
 .me-text {
     margin: 0 1.5rem;
     color: var(--color1);
+    font-family: var(--main-font);
 }
 
 .je img {
@@ -172,17 +175,54 @@ header h2 {
    
 }
 
+/*Graphic Design*/
+
+#gdpage {
+  font-family: var(--main-font);
+  color: var(--color1);
+  
+}
+
+#gdpage h3 {
+   font-weight: 800;
+
+}
+
+.graphic-design-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.project-card {
+  border: 2px solid var(--color4); /* swap for your palette */
+  border-radius: 8px;
+  padding: 16px;
+  transition: box-shadow 0.2s ease;
+  margin: 2rem;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.project-card img {
+  width: auto;
+  max-width: 325px;
+  text-align: center;
+}
+
 /*FOOTER*/
 
 footer {
   background-color: var(--color2);
   color: var(--color3);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: var(--main-font);
   padding: 2rem;
   width: auto;
   text-align: left;
-  line-height: 1.5rem;
+  line-height: 2rem;
       
 }
 
