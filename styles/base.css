@@ -22,6 +22,9 @@ header {
   background-color: var(--color2);
   color: var(--color3);
   position: relative;
+  border: 3px solid var(--color4);
+  border-radius: 15px;
+  
 }
 
 
@@ -175,6 +178,38 @@ header h2 {
    
 }
 
+/*Portfolio*/
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 15rem;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  padding: 1.5rem;
+  border-radius: 15px;
+  background-color: var(--color2);
+  border: 3px solid var(--color4);
+  font-family: var(--main-font);
+  font-size: 1.5rem;
+  color: var(--color3);
+  font-weight: 900;
+  box-shadow: 4px 4px 10px var(--color1);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.btn:active {
+  transform: translateY(2px); /* moves button down */
+  box-shadow: 2px 2px 4px #365912; /* smaller shadow */
+}
+
+
 /*Graphic Design*/
 
 #gdpage {
@@ -214,6 +249,7 @@ header h2 {
 
 }
 
+
 /*FOOTER*/
 
 footer {
@@ -225,6 +261,8 @@ footer {
   width: auto;
   text-align: left;
   line-height: 2rem;
+  border: 3px solid var(--color4);
+  border-radius: 15px;
       
 }
 
