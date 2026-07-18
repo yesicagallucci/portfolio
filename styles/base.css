@@ -248,7 +248,59 @@ header h2 {
   text-align: center;
 
 }
+/*Writing*/
+.article {
+  margin: 2rem;
+  font-family: var(--main-font);
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: 3px solid var(--color4);
+  border-radius: 15px;
+}
 
+.article p {
+  margin: 1rem;
+  font-size: 1.3rem;
+  color: var(--color1);
+}
+
+.article-header {
+  border: 0;
+  padding: 1rem;
+  background-color: var(--color1);
+  color: var(--color5);
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+}
+.article-header p {
+  color: var(--color3);
+}
+
+.article-item {
+  margin: 1.5rem;
+  padding: 1rem;
+}
+
+.article-item h4 {
+  color: var(--color1);
+  background-color: var(--color5);
+  padding: 1rem;
+  border-radius: 15px;
+  font-size: 1.7rem;
+}
+
+.article-footer {
+  background-color: var(--color1);
+  color: var(--color5);
+  display: block;
+}
+
+.article-footer p {
+  color: var(--color5);
+
+}
 
 /*FOOTER*/
 
@@ -262,9 +314,10 @@ footer {
   text-align: left;
   line-height: 2rem;
   border: 3px solid var(--color4);
-  border-radius: 15px;
-      
+  border-radius: 15px;    
 }
+
+
 
 .data, 
 .smedia,
