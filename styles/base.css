@@ -295,6 +295,7 @@ header h2 {
   background-color: var(--color1);
   color: var(--color5);
   display: block;
+  border: 0;
 }
 
 .article-footer p {
